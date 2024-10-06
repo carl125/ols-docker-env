@@ -83,7 +83,8 @@ EOT
 }
 
 check_db_access(){
-    docker compose exec -T mysql su -c "mysql -uroot -p${MYSQL_ROOT_PASSWORD} -e 'status'" >/dev/null 2>&1
+    # docker compose exec -T mysql su -c "mysql -uroot -p${MYSQL_ROOT_PASSWORD} -e 'status'" >/dev/null 2>&1
+    docker compose exec -T mysql su -c "mariadb -uroot -p${MYSQL_ROOT_PASSWORD} -e 'status'" >/dev/null 2>&1
     if [ ${?} != 0 ]; then
         echo '[X] DB access failed, please check!'
         exit 1
