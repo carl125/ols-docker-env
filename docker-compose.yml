@@ -1,6 +1,7 @@
 services:
   mysql:
     image: mariadb:11.4
+    container_name: mysql
     logging:
       driver: none
     command: ["--max-allowed-packet=512M"]
@@ -38,6 +39,7 @@ services:
       - default
   phpmyadmin:
     image: bitnami/phpmyadmin:5.2.0-debian-11-r43
+    container_name: phpmyadmin
     ports:
       - 8080:8080
       - 8443:8443
@@ -48,6 +50,7 @@ services:
       - default
   redis:
     image: "redis:alpine"
+    container_name: redis
     logging:
       driver: none
     # command: redis-server --requirepass 8b405f60665e48f795752e534d93b722
