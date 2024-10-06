@@ -42,6 +42,9 @@ services:
   phpmyadmin:
     image: bitnami/phpmyadmin:5.2.0-debian-11-r43
     container_name: phpmyadmin
+    volumes:
+      - ./phpmyadmin_ssl/server.crt:/opt/bitnami/phpmyadmin/certs/server.crt:ro
+      - /phpmyadmin_ssl/server.key:/opt/bitnami/phpmyadmin/certs/server.key:ro
     ports:
       - 8080:8080
       - 8443:8443
