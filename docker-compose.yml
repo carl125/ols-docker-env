@@ -3,7 +3,8 @@ services:
     image: mariadb:11.4
     container_name: mysql
     logging:
-      driver: none
+      # driver: none
+      driver: "json-file"
     command: ["--max-allowed-packet=512M"]
     volumes:
       - "./data/db:/var/lib/mysql:delegated"
