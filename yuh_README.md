@@ -201,3 +201,12 @@ Nếu bạn gặp bất kỳ khó khăn nào khi chạy các script này, cứ c
    - Cấu hình Redis trong WordPress LiteSpeed Cache plugin.
 
 Nếu bạn gặp bất kỳ vấn đề gì trong quá trình thực hiện, cứ hỏi mình nhé!
+
+================================================
+cronjob tự động chuyển đổi ảnh sang định dạng WebP
+```
+chmod +x ~/convert_to_webp.sh
+0 0 */14 * * /bin/bash /home/ubuntu/convert_to_webp.sh > /home/ubuntu/convert_to_webp.log 2>&1
+crontab -l
+
+```
