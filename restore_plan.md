@@ -4,7 +4,7 @@ Dừng toàn bộ các container đang chạy.
 
 ```bash
 cd /home/ubuntu/ols-docker-env
-docker-compose down
+docker compose down
 ```
 
 ### 2. **Xóa toàn bộ thư mục hiện tại**
@@ -22,7 +22,7 @@ sudo rm -rf /home/ubuntu/ols-docker-env
 Bước này sử dụng rclone để sao chép file backup từ Google Drive về máy.
 
 ```bash
-nohup rclone copy gdrive:/backup/quanlotkhe.com/quanlotkhe-10-16-2024.tar.gz /home/ubuntu/restore &
+nohup rclone copy gdrive:/backup/quanlotkhe.com/quanlotkhe-10-21-2024.tar.gz /home/ubuntu/restore &
 ```
 
 Lệnh trên sẽ sao chép file backup từ Google Drive về máy VPS vào thư mục `/home/ubuntu/restore`. **`nohup`** giúp giữ cho quá trình sao chép tiếp tục chạy ngay cả khi phiên SSH bị ngắt.
@@ -32,7 +32,7 @@ Lệnh trên sẽ sao chép file backup từ Google Drive về máy VPS vào th�
 Khi file đã được sao chép, bạn cần giải nén file backup vào thư mục `/home/ubuntu/ols-docker-env`.
 
 ```bash
-nohup tar -xzvf /home/ubuntu/restore/quanlotkhe-10-16-2024.tar.gz -C /home/ubuntu/ &
+nohup tar -xzvf /home/ubuntu/restore/quanlotkhe-10-21-2024.tar.gz -C /home/ubuntu/ &
 ```
 
 Lệnh này sẽ giải nén file `.tar.gz` vào đúng thư mục bạn cần để khôi phục dữ liệu.
@@ -51,9 +51,27 @@ Vào thư mục chứa Docker Compose và khởi động lại toàn bộ contai
 
 ```bash
 cd /home/ubuntu/ols-docker-env
-docker-compose up -d
+docker compose up -d
 ```
 
+### 7. **cronjob**
+
+```bash
+# copy script vào container litespeed:
+docker cp convert_to_webp.sh litespeed:/home/ubuntu
+
+# truy cập vào litespeed container:
+docker exec -it litespeed bash
+
+# cài vim, setup cron job:
+apt update
+apt install vim -y
+0 3 * * * /bin/bash /home/ubuntu/convert_to_webp.sh >> /home/ubuntu/convert_to_webp.log 2>&1
+
+# test:
+nohup /bin/bash /home/ubuntu/convert_to_webp.sh >> /home/ubuntu/convert_to_webp.log 2>&1 &
+
+```
 ---
 
 ### Tổng hợp toàn bộ các lệnh:
@@ -67,10 +85,10 @@ docker-compose down
 sudo rm -rf /home/ubuntu/ols-docker-env
 
 # Sao chép file từ Google Drive
-nohup rclone copy gdrive:/backup/quanlotkhe.com/quanlotkhe-10-16-2024.tar.gz /home/ubuntu/restore &
+nohup rclone copy gdrive:/backup/quanlotkhe.com/quanlotkhe-10-21-2024.tar.gz /home/ubuntu/restore &
 
 # Giải nén file
-nohup tar -xzvf /home/ubuntu/restore/quanlotkhe-10-16-2024.tar.gz -C /home/ubuntu/ &
+nohup tar -xzvf /home/ubuntu/restore/quanlotkhe-10-21-2024.tar.gz -C /home/ubuntu/ &
 
 # Khôi phục file .env
 cp /home/ubuntu/.env.bk /home/ubuntu/ols-docker-env/.env
@@ -78,4 +96,7 @@ cp /home/ubuntu/.env.bk /home/ubuntu/ols-docker-env/.env
 # Khởi động lại container
 cd /home/ubuntu/ols-docker-env
 docker-compose up -d
+
+# setup cron job convert image sang format webp 
+0 3 * * * /bin/bash /home/ubuntu/convert_to_webp.sh >> /home/ubuntu/convert_to_webp.log 2>&1
 ```
