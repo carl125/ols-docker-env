@@ -58,7 +58,7 @@ docker compose up -d
 
 ```bash
 # copy script vào container litespeed:
-docker cp convert_to_webp.sh litespeed:/home/ubuntu
+docker cp /home/ubuntu/ols-docker-env/convert_to_webp.sh litespeed:/home/ubuntu
 
 # truy cập vào litespeed container:
 docker exec -it litespeed bash
@@ -100,3 +100,17 @@ docker-compose up -d
 # setup cron job convert image sang format webp 
 0 3 * * * /bin/bash /home/ubuntu/convert_to_webp.sh >> /home/ubuntu/convert_to_webp.log 2>&1
 ```
+
+### Hướng dẫn sử dụng restore_script.sh
+1. Lưu script với tên, ví dụ `restore_script.sh`.
+2. Cấp quyền thực thi cho script:
+
+   ```bash
+   chmod +x restore_script.sh
+   ```
+
+3. Chạy script, cung cấp tên file backup làm đối số:
+
+   ```bash
+   ./restore_script.sh quanlotkhe-10-21-2024.tar.gz
+   ```
