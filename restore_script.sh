@@ -66,7 +66,7 @@ else
     echo "Lỗi khi thiết lập cron job."
 fi
 
-echo "Quá trình restore hoàn tất."
-
 # Xóa tất cả nội dung đã tải về
 rm -rf "$RESTORE_DIR"/*
+
+echo "Quá trình restore hoàn tất."
