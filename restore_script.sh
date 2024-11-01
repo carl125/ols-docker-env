@@ -57,7 +57,7 @@ chmod +x "$DOCKER_ENV_DIR/convert_to_webp.sh"
 docker cp "$DOCKER_ENV_DIR/convert_to_webp.sh" litespeed:/home/ubuntu
 
 # Thiết lập cron job bên trong container
-docker exec litespeed bash -c "(crontab -l 2>/dev/null; echo '0 3 * * * /bin/bash /home/ubuntu/convert_to_webp.sh > /home/ubuntu/convert_to_webp.log 2>&1') | crontab -"
+docker exec litespeed bash -c "apt update && apt install webp -y && (crontab -l 2>/dev/null; echo '0 3 * * * /bin/bash /home/ubuntu/convert_to_webp.sh > /home/ubuntu/convert_to_webp.log 2>&1') | crontab -"
 
 # Kiểm tra nếu cron job được tạo thành công
 if docker exec litespeed crontab -l | grep -q "convert_to_webp.sh"; then
