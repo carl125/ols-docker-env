@@ -5,7 +5,7 @@ Các script mà LiteSpeedTech cung cấp trong thư mục `bin` tương tác v�
    - **Chạy trong container**: **LiteSpeed**.
    - **Cách chạy**:
      ```bash
-     docker exec -it litespeed bash bin/webadmin.sh my_password
+     bash bin/webadmin.sh my_password
      ```
 
 ### 2. **`bash bin/demosite.sh`**
@@ -13,7 +13,7 @@ Các script mà LiteSpeedTech cung cấp trong thư mục `bin` tương tác v�
    - **Chạy trong container**: **LiteSpeed**.
    - **Cách chạy**:
      ```bash
-     docker exec -it litespeed bash bin/demosite.sh
+     bash bin/demosite.sh
      ```
 
 ### 3. **`bash bin/domain.sh [-A, --add] example.com`**
@@ -21,7 +21,7 @@ Các script mà LiteSpeedTech cung cấp trong thư mục `bin` tương tác v�
    - **Chạy trong container**: **LiteSpeed**.
    - **Cách chạy**:
      ```bash
-     docker exec -it litespeed bash bin/domain.sh -A example.com
+     bash bin/domain.sh -A example.com
      ```
 
 ### 4. **`bash bin/domain.sh [-D, --del] example.com`**
@@ -29,7 +29,7 @@ Các script mà LiteSpeedTech cung cấp trong thư mục `bin` tương tác v�
    - **Chạy trong container**: **LiteSpeed**.
    - **Cách chạy**:
      ```bash
-     docker exec -it litespeed bash bin/domain.sh -D example.com
+     bash bin/domain.sh -D example.com
      ```
 
 ### 5. **`bash bin/database.sh [-D, --domain] example.com`**
@@ -45,7 +45,7 @@ Các script mà LiteSpeedTech cung cấp trong thư mục `bin` tương tác v�
    - **Chạy trong container**: **MySQL (MariaDB)**.
    - **Cách chạy**:
      ```bash
-     docker exec -it ols-docker-env-mysql-1 bash bin/database.sh -D example.com -U USER_NAME -P MY_PASS -DB DATABASE_NAME
+     bash bin/database.sh -D example.com -U USER_NAME -P MY_PASS -DB DATABASE_NAME
      ```
 
 ### 7. **`bash bin/appinstall.sh [-A, --app] wordpress [-D, --domain] example.com`**
@@ -53,7 +53,7 @@ Các script mà LiteSpeedTech cung cấp trong thư mục `bin` tương tác v�
    - **Chạy trong container**: **LiteSpeed**.
    - **Cách chạy**:
      ```bash
-     docker exec -it litespeed bash bin/appinstall.sh -A wordpress -D example.com
+     bash bin/appinstall.sh -A wordpress -D example.com
      ```
 
 ### 8. **`bash bin/acme.sh [-I, --install] [-E, --email] EMAIL_ADDR`**
@@ -61,7 +61,7 @@ Các script mà LiteSpeedTech cung cấp trong thư mục `bin` tương tác v�
    - **Chạy trong container**: **LiteSpeed**.
    - **Cách chạy**:
      ```bash
-     docker exec -it litespeed bash bin/acme.sh -I -E youremail@example.com
+     bash bin/acme.sh -I -E youremail@example.com
      ```
 
 ### 9. **`bash bin/acme.sh [-D, --domain] example.com`**
@@ -69,7 +69,7 @@ Các script mà LiteSpeedTech cung cấp trong thư mục `bin` tương tác v�
    - **Chạy trong container**: **LiteSpeed**.
    - **Cách chạy**:
      ```bash
-     docker exec -it litespeed bash bin/acme.sh -D example.com
+     bash bin/acme.sh -D example.com
      ```
 
 ### 10. **`bash bin/webadmin.sh [-U, --upgrade]`**
@@ -77,7 +77,7 @@ Các script mà LiteSpeedTech cung cấp trong thư mục `bin` tương tác v�
    - **Chạy trong container**: **LiteSpeed**.
    - **Cách chạy**:
      ```bash
-     docker exec -it litespeed bash bin/webadmin.sh -U
+     bash bin/webadmin.sh -U
      ```
 
 ### 11. **`bash bin/webadmin.sh [-M, --mod-secure] enable`**
@@ -85,7 +85,7 @@ Các script mà LiteSpeedTech cung cấp trong thư mục `bin` tương tác v�
    - **Chạy trong container**: **LiteSpeed**.
    - **Cách chạy**:
      ```bash
-     docker exec -it litespeed bash bin/webadmin.sh -M enable
+     bash bin/webadmin.sh -M enable
      ```
 
 ### 12. **`bash bin/webadmin.sh [-M, --mod-secure] disable`**
@@ -93,7 +93,7 @@ Các script mà LiteSpeedTech cung cấp trong thư mục `bin` tương tác v�
    - **Chạy trong container**: **LiteSpeed**.
    - **Cách chạy**:
      ```bash
-     docker exec -it litespeed bash bin/webadmin.sh -M disable
+     bash bin/webadmin.sh -M disable
      ```
 
 ### 13. **Truy cập Redis từ LiteSpeed Cache Plugin**
