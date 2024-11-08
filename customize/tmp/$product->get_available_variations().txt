@@ -1,0 +1,485 @@
+[07-Nov-2024 08:13:06 UTC] Value of $product->get_available_variations(): Array
+(
+    [0] => Array
+        (
+            [attributes] => Array
+                (
+                    [attribute_size] => Từ 45-56kg
+                    [attribute_mau-sac] => Đen
+                )
+
+            [availability_html] =>
+            [backorders_allowed] =>
+            [dimensions] => Array
+                (
+                    [length] =>
+                    [width] =>product->get_available_variations
+                    [height] =>
+                )
+
+            [dimensions_html] => N/A
+            [display_price] => 35000
+            [display_regular_price] => 35000
+            [image] => Array
+                (
+                    [title] => ren-y1
+                    [caption] => Quần lọt khe ren nữ tính
+                    [url] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y1.jpg
+                    [alt] => Quần lọt khe ren nữ tính
+                    [src] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y1-510x510.jpg
+                    [srcset] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y1-510x510.jpg 510w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y1-400x400.jpg 400w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y1-280x280.jpg 280w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y1-768x768.jpg 768w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y1-100x100.jpg 100w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y1.jpg 800w
+                    [sizes] => (max-width: 510px) 100vw, 510px
+                    [full_src] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y1.jpg
+                    [full_src_w] => 800
+                    [full_src_h] => 800
+                    [gallery_thumbnail_src] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y1-100x100.jpg
+                    [gallery_thumbnail_src_w] => 100
+                    [gallery_thumbnail_src_h] => 100
+                    [thumb_src] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y1-247x371.jpg
+                    [thumb_src_w] => 247
+                    [thumb_src_h] => 371
+                    [src_w] => 510
+                    [src_h] => 510
+                )
+
+            [image_id] => 1306
+            [is_downloadable] =>
+            [is_in_stock] => 1
+            [is_purchasable] => 1
+            [is_sold_individually] => no
+            [is_virtual] =>
+            [max_qty] =>
+            [min_qty] => 1
+            [price_html] =>
+            [sku] =>
+            [variation_description] =>
+            [variation_id] => 1315
+            [variation_is_active] => 1
+            [variation_is_visible] => 1
+            [weight] =>
+            [weight_html] => N/A
+        )
+
+    [1] => Array
+        (
+            [attributes] => Array
+                (
+                    [attribute_size] => Từ 45-56kg
+                    [attribute_mau-sac] => Đỏ
+                )
+
+            [availability_html] =>
+            [backorders_allowed] =>
+            [dimensions] => Array
+                (
+                    [length] =>
+                    [width] =>
+                    [height] =>
+                )
+
+            [dimensions_html] => N/A
+            [display_price] => 35000
+            [display_regular_price] => 35000
+            [image] => Array
+                (
+                    [title] => ren-y2
+                    [caption] => Quần lọt khe ren thiết kế chữ Y
+                    [url] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y2.jpg
+                    [alt] => Quần lọt khe ren thiết kế chữ Y
+                    [src] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y2-510x510.jpg
+                    [srcset] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y2-510x510.jpg 510w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y2-400x400.jpg 400w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y2-280x280.jpg 280w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y2-768x768.jpg 768w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y2-100x100.jpg 100w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y2.jpg 800w
+                    [sizes] => (max-width: 510px) 100vw, 510px
+                    [full_src] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y2.jpg
+                    [full_src_w] => 800
+                    [full_src_h] => 800
+                    [gallery_thumbnail_src] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y2-100x100.jpg
+                    [gallery_thumbnail_src_w] => 100
+                    [gallery_thumbnail_src_h] => 100
+                    [thumb_src] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y2-247x371.jpg
+                    [thumb_src_w] => 247
+                    [thumb_src_h] => 371
+                    [src_w] => 510
+                    [src_h] => 510
+                )
+
+            [image_id] => 1307
+            [is_downloadable] =>
+            [is_in_stock] => 1
+            [is_purchasable] => 1
+            [is_sold_individually] => no
+            [is_virtual] =>
+            [max_qty] =>
+            [min_qty] => 1
+            [price_html] =>
+            [sku] =>
+            [variation_description] =>
+            [variation_id] => 1316
+            [variation_is_active] => 1
+            [variation_is_visible] => 1
+            [weight] =>
+            [weight_html] => N/A
+        )
+
+    [2] => Array
+        (
+            [attributes] => Array
+                (
+                    [attribute_size] => Từ 45-56kg
+                    [attribute_mau-sac] => Hồng
+                )
+
+            [availability_html] =>
+            [backorders_allowed] =>
+            [dimensions] => Array
+                (
+                    [length] =>
+                    [width] =>
+                    [height] =>
+                )
+
+            [dimensions_html] => N/A
+            [display_price] => 35000
+            [display_regular_price] => 35000
+            [image] => Array
+                (
+                    [title] => ren-y7
+                    [caption] => Quần lọt khe ren co giãn tốt
+                    [url] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y7.jpg
+                    [alt] => Quần lọt khe ren co giãn tốt
+                    [src] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y7-510x510.jpg
+                    [srcset] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y7-510x510.jpg 510w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y7-400x400.jpg 400w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y7-280x280.jpg 280w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y7-768x768.jpg 768w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y7-100x100.jpg 100w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y7.jpg 800w
+                    [sizes] => (max-width: 510px) 100vw, 510px
+                    [full_src] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y7.jpg
+                    [full_src_w] => 800
+                    [full_src_h] => 800
+                    [gallery_thumbnail_src] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y7-100x100.jpg
+                    [gallery_thumbnail_src_w] => 100
+                    [gallery_thumbnail_src_h] => 100
+                    [thumb_src] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y7-247x371.jpg
+                    [thumb_src_w] => 247
+                    [thumb_src_h] => 371
+                    [src_w] => 510
+                    [src_h] => 510
+                )
+
+            [image_id] => 1312
+            [is_downloadable] =>
+            [is_in_stock] => 1
+            [is_purchasable] => 1
+            [is_sold_individually] => no
+            [is_virtual] =>
+            [max_qty] =>
+            [min_qty] => 1
+            [price_html] =>
+            [sku] =>
+            [variation_description] =>
+            [variation_id] => 1317
+            [variation_is_active] => 1
+            [variation_is_visible] => 1
+            [weight] =>
+            [weight_html] => N/A
+        )
+
+    [3] => Array
+        (
+            [attributes] => Array
+                (
+                    [attribute_size] => Từ 45-56kg
+                    [attribute_mau-sac] => Nu
+                )
+
+            [availability_html] =>
+            [backorders_allowed] =>
+            [dimensions] => Array
+                (
+                    [length] =>
+                    [width] =>
+                    [height] =>
+                )
+
+            [dimensions_html] => N/A
+            [display_price] => 35000
+            [display_regular_price] => 35000
+            [image] => Array
+                (
+                    [title] => ren-y8
+                    [caption] => Quần lọt khe ren chữ Y R1106
+                    [url] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y8.jpg
+                    [alt] => Quần lọt khe ren chữ Y R1106
+                    [src] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y8-510x510.jpg
+                    [srcset] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y8-510x510.jpg 510w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y8-400x400.jpg 400w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y8-280x280.jpg 280w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y8-768x768.jpg 768w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y8-100x100.jpg 100w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y8.jpg 800w
+                    [sizes] => (max-width: 510px) 100vw, 510px
+                    [full_src] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y8.jpg
+                    [full_src_w] => 800
+                    [full_src_h] => 800
+                    [gallery_thumbnail_src] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y8-100x100.jpg
+                    [gallery_thumbnail_src_w] => 100
+                    [gallery_thumbnail_src_h] => 100
+                    [thumb_src] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y8-247x371.jpg
+                    [thumb_src_w] => 247
+                    [thumb_src_h] => 371
+                    [src_w] => 510
+                    [src_h] => 510
+                )
+
+            [image_id] => 1313
+            [is_downloadable] =>
+            [is_in_stock] => 1
+            [is_purchasable] => 1
+            [is_sold_individually] => no
+            [is_virtual] =>
+            [max_qty] =>
+            [min_qty] => 1
+            [price_html] =>
+            [sku] =>
+            [variation_description] =>
+            [variation_id] => 1318
+            [variation_is_active] => 1
+            [variation_is_visible] => 1
+            [weight] =>
+            [weight_html] => N/A
+        )
+
+    [4] => Array
+        (
+            [attributes] => Array
+                (
+                    [attribute_size] => Từ 45-56kg
+                    [attribute_mau-sac] => Trắng
+                )
+
+            [availability_html] =>
+            [backorders_allowed] =>
+            [dimensions] => Array
+                (
+                    [length] =>
+                    [width] =>
+                    [height] =>
+                )
+
+            [dimensions_html] => N/A
+            [display_price] => 35000
+            [display_regular_price] => 35000
+            [image] => Array
+                (
+                    [title] => ren-y9
+                    [caption] => Quần lọt khe ren co giãn tốt
+                    [url] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y9.jpg
+                    [alt] => Quần lọt khe ren co giãn tốt
+                    [src] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y9-510x510.jpg
+                    [srcset] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y9-510x510.jpg 510w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y9-400x400.jpg 400w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y9-280x280.jpg 280w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y9-768x768.jpg 768w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y9-100x100.jpg 100w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y9.jpg 800w
+                    [sizes] => (max-width: 510px) 100vw, 510px
+                    [full_src] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y9.jpg
+                    [full_src_w] => 800
+                    [full_src_h] => 800
+                    [gallery_thumbnail_src] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y9-100x100.jpg
+                    [gallery_thumbnail_src_w] => 100
+                    [gallery_thumbnail_src_h] => 100
+                    [thumb_src] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y9-247x371.jpg
+                    [thumb_src_w] => 247
+                    [thumb_src_h] => 371
+                    [src_w] => 510
+                    [src_h] => 510
+                )
+
+            [image_id] => 1314
+            [is_downloadable] =>
+            [is_in_stock] => 1
+            [is_purchasable] => 1
+            [is_sold_individually] => no
+            [is_virtual] =>
+            [max_qty] =>
+            [min_qty] => 1
+            [price_html] =>
+            [sku] =>
+            [variation_description] =>
+            [variation_id] => 1319
+            [variation_is_active] => 1
+            [variation_is_visible] => 1
+            [weight] =>
+            [weight_html] => N/A
+        )
+
+    [5] => Array
+        (
+            [attributes] => Array
+                (
+                    [attribute_size] => Từ 45-56kg
+                    [attribute_mau-sac] => Xanh lơ
+                )
+
+            [availability_html] =>
+            [backorders_allowed] =>
+            [dimensions] => Array
+                (
+                    [length] =>
+                    [width] =>
+                    [height] =>
+                )
+
+            [dimensions_html] => N/A
+            [display_price] => 35000
+            [display_regular_price] => 35000
+            [image] => Array
+                (
+                    [title] => ren-y4
+                    [caption] => Quần lọt khe ren không viền
+                    [url] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y4.jpg
+                    [alt] => Quần lọt khe ren không viền
+                    [src] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y4-510x510.jpg
+                    [srcset] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y4-510x510.jpg 510w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y4-400x400.jpg 400w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y4-280x280.jpg 280w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y4-768x768.jpg 768w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y4-100x100.jpg 100w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y4.jpg 800w
+                    [sizes] => (max-width: 510px) 100vw, 510px
+                    [full_src] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y4.jpg
+                    [full_src_w] => 800
+                    [full_src_h] => 800
+                    [gallery_thumbnail_src] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y4-100x100.jpg
+                    [gallery_thumbnail_src_w] => 100
+                    [gallery_thumbnail_src_h] => 100
+                    [thumb_src] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y4-247x371.jpg
+                    [thumb_src_w] => 247
+                    [thumb_src_h] => 371
+                    [src_w] => 510
+                    [src_h] => 510
+                )
+
+            [image_id] => 1309
+            [is_downloadable] =>
+            [is_in_stock] => 1
+            [is_purchasable] => 1
+            [is_sold_individually] => no
+            [is_virtual] =>
+            [max_qty] =>
+            [min_qty] => 1
+            [price_html] =>
+            [sku] =>
+            [variation_description] =>
+            [variation_id] => 1320
+            [variation_is_active] => 1
+            [variation_is_visible] => 1
+            [weight] =>
+            [weight_html] => N/A
+        )
+
+    [6] => Array
+        (
+            [attributes] => Array
+                (
+                    [attribute_size] => Từ 45-56kg
+                    [attribute_mau-sac] => Xanh đen
+                )
+
+            [availability_html] =>
+            [backorders_allowed] =>
+            [dimensions] => Array
+                (
+                    [length] =>
+                    [width] =>
+                    [height] =>
+                )
+
+            [dimensions_html] => N/A
+            [display_price] => 35000
+            [display_regular_price] => 35000
+            [image] => Array
+                (
+                    [title] => ren-y6
+                    [caption] => Quần lót chữ Y ren mỏng nhẹ
+                    [url] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y6.jpg
+                    [alt] => Quần lót chữ Y ren mỏng nhẹ
+                    [src] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y6-510x510.jpg
+                    [srcset] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y6-510x510.jpg 510w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y6-400x400.jpg 400w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y6-280x280.jpg 280w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y6-768x768.jpg 768w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y6-100x100.jpg 100w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y6.jpg 800w
+                    [sizes] => (max-width: 510px) 100vw, 510px
+                    [full_src] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y6.jpg
+                    [full_src_w] => 800
+                    [full_src_h] => 800
+                    [gallery_thumbnail_src] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y6-100x100.jpg
+                    [gallery_thumbnail_src_w] => 100
+                    [gallery_thumbnail_src_h] => 100
+                    [thumb_src] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y6-247x371.jpg
+                    [thumb_src_w] => 247
+                    [thumb_src_h] => 371
+                    [src_w] => 510
+                    [src_h] => 510
+                )
+
+            [image_id] => 1311
+            [is_downloadable] =>
+            [is_in_stock] => 1
+            [is_purchasable] => 1
+            [is_sold_individually] => no
+            [is_virtual] =>
+            [max_qty] =>
+            [min_qty] => 1
+            [price_html] =>
+            [sku] =>
+            [variation_description] =>
+            [variation_id] => 1321
+            [variation_is_active] => 1
+            [variation_is_visible] => 1
+            [weight] =>
+            [weight_html] => N/A
+        )
+
+    [7] => Array
+        (
+            [attributes] => Array
+                (
+                    [attribute_size] => Từ 45-56kg
+                    [attribute_mau-sac] => Nâu nhạt
+                )
+
+            [availability_html] =>
+            [backorders_allowed] =>
+            [dimensions] => Array
+                (
+                    [length] =>
+                    [width] =>
+                    [height] =>
+                )
+
+            [dimensions_html] => N/A
+            [display_price] => 35000
+            [display_regular_price] => 35000
+            [image] => Array
+                (
+                    [title] => ren-y5
+                    [caption] => Quần lót chữ Y ren thoáng mát
+                    [url] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y5.jpg
+                    [alt] => Quần lót chữ Y ren thoáng mát
+                    [src] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y5-510x510.jpg
+                    [srcset] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y5-510x510.jpg 510w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y5-400x400.jpg 400w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y5-280x280.jpg 280w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y5-768x768.jpg 768w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y5-100x100.jpg 100w, https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y5.jpg 800w
+                    [sizes] => (max-width: 510px) 100vw, 510px
+                    [full_src] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y5.jpg
+                    [full_src_w] => 800
+                    [full_src_h] => 800
+                    [gallery_thumbnail_src] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y5-100x100.jpg
+                    [gallery_thumbnail_src_w] => 100
+                    [gallery_thumbnail_src_h] => 100
+                    [thumb_src] => https://dev.quanlotkhe.com/wp-content/uploads/2024/10/ren-y5-247x371.jpg
+                    [thumb_src_w] => 247
+                    [thumb_src_h] => 371
+                    [src_w] => 510
+                    [src_h] => 510
+                )
+
+            [image_id] => 1310
+            [is_downloadable] =>
+            [is_in_stock] => 1
+            [is_purchasable] => 1
+            [is_sold_individually] => no
+            [is_virtual] =>
+            [max_qty] =>
+            [min_qty] => 1
+            [price_html] =>
+            [sku] =>
+            [variation_description] =>
+            [variation_id] => 1322
+            [variation_is_active] => 1
+            [variation_is_visible] => 1
+            [weight] =>
+            [weight_html] => N/A
+        )
+
+)
+
+ubuntu@vps-6e457b0f:~/ols-docker-env/sites/dev.quanlotkhe.com/html/wp-content$

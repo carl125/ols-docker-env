@@ -1,0 +1,11 @@
+
+1. variable.php:
+```
+/themes/flatsome/woocommerce/single-product/add-to-cart
+```
+
+2. quantity-input.php:
+
+```
+themes/flatsome/woocommerce/global/quantity-input.php
+```

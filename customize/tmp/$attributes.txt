@@ -1,0 +1,21 @@
+[07-Nov-2024 08:23:35 UTC] Value of $attributes: Array
+(
+    [Size] => Array
+        (
+            [0] => Từ 45-56kg
+        )
+
+    [Màu sắc] => Array
+        (
+            [0] => Đen
+            [1] => Đỏ
+            [2] => Hồng
+            [3] => Nu
+            [4] => Trắng
+            [5] => Xanh lơ
+            [6] => Xanh đen
+            [7] => Nâu nhạt
+        )
+
+)
+

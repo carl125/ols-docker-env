@@ -1,0 +1,32 @@
+<tr>
+    <th class="label">
+        <?php foreach ( $variation_attributes as $attribute_name => $attribute_value ) : ?>
+            <?php 
+                $attribute_key = str_replace( 'attribute_', '', $attribute_name );
+                $attribute_label = isset( $attribute_labels[ $attribute_key ] ) ? $attribute_labels[ $attribute_key ] : ucfirst( $attribute_key );
+
+                // Lấy URL hình ảnh của biến thể này nếu là "Màu sắc"
+                $data_image = '';
+                if ( $attribute_key === 'mau-sac' ) {
+                    $data_image = 'data-image="' . esc_url( $variation['image']['src'] ) . '"'; // Lấy URL ảnh của biến thể màu sắc
+                }
+            ?>
+            <label class="variation-option" <?php echo $data_image; ?> onclick="updateProductImage(this)">
+                <?php echo esc_html( $attribute_label ); ?>: <?php echo esc_html( $attribute_value ); ?>
+            </label><br/>
+        <?php endforeach; ?>
+    </th>
+    <td class="value">
+        <div class="quantity-input">
+            <button type="button" class="minus" onclick="changeQuantity(<?php echo esc_attr( $variation_id ); ?>, -1)">-</button>
+            <input type="number" name="quantity[<?php echo esc_attr( $variation_id ); ?>]" min="0" value="0" id="quantity_<?php echo esc_attr( $variation_id ); ?>" readonly />
+            <button type="button" class="plus" onclick="changeQuantity(<?php echo esc_attr( $variation_id ); ?>, 1)">+</button>
+        </div>
+
+        <?php foreach ( $variation_attributes as $attribute_name => $attribute_value ) : ?>
+            <input type="hidden" name="variation[<?php echo esc_attr( $variation_id ); ?>][<?php echo esc_attr( $attribute_name ); ?>]" value="<?php echo esc_attr( $attribute_value ); ?>" />
+        <?php endforeach; ?>
+
+        <input type="hidden" name="variation_id[<?php echo esc_attr( $variation_id ); ?>]" value="<?php echo esc_attr( $variation_id ); ?>" />
+    </td>
+</tr>
