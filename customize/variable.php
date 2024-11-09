@@ -54,13 +54,15 @@ do_action( 'woocommerce_before_add_to_cart_form' ); ?>
                         ?>
                         
                         <th class="label" <?php echo $data_image; ?> ontouchstart="updateProductImage(this); highlightActive(this);" onclick="updateProductImage(this); highlightActive(this);">
-                            <?php foreach ( $variation_attributes as $attribute_name => $attribute_value ) : ?>
-                                <?php 
+                            <?php 
+                                $combined_label = array();
+                                foreach ( $variation_attributes as $attribute_name => $attribute_value ) {
                                     $attribute_key = str_replace( 'attribute_', '', $attribute_name );
                                     $attribute_label = isset( $attribute_labels[ $attribute_key ] ) ? $attribute_labels[ $attribute_key ] : ucfirst( $attribute_key );
-                                ?>
-                                <label><?php echo esc_html( $attribute_label ); ?>: <?php echo esc_html( $attribute_value ); ?></label><br/>
-                            <?php endforeach; ?>
+                                    $combined_label[] = esc_html( $attribute_value );
+                                }
+                                echo '<label>' . implode(' - ', $combined_label) . '</label>';
+                            ?>
                         </th>
                         <td class="value">
                             <!-- Quantity input with +/- buttons -->
@@ -173,17 +175,26 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 <style>
+.variations th.label {
+    padding: 2px;
+    line-height: 1;
+    box-sizing: border-box;
+    height: 20px;
+    min-height: 30px;
+    overflow: hidden; /* Ngăn nội dung tràn ra */
+}
 /* CSS cho nút + và - */
 .quantity-input {
     display: flex;
     align-items: center;
     gap: 5px;
+    margin-left: 10px;
 }
 
 .quantity-input button {
     width: 20px;
     height: 20px;
-    font-size: 14px;
+    font-size: 12px;
     background-color: #f0f0f0;
     border: 1px solid #ccc;
     cursor: pointer;
@@ -197,9 +208,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
 .quantity-input input[type="number"] {
     width: 40px;
-    height: 40px;
+    height: 20px;
     text-align: center;
-    font-size: 16px;
+    font-size: 12px;
     border: none;
     background-color: transparent;
     box-sizing: border-box;
@@ -211,14 +222,9 @@ document.addEventListener('DOMContentLoaded', function() {
 .label {
     cursor: pointer; 
     transition: background-color 0.3s ease;
-    padding: 10px;
 }
 
 .label.active {
     background-color: #fcdcdc; 
-}
-
-.quantity-input {
-    margin-top: 10px;
 }
 </style>
