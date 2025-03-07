@@ -210,3 +210,11 @@ chmod +x ~/convert_to_webp.sh
 crontab -l
 
 ```
+
+
+docker cp convert_to_webp.sh litespeed:/home/ubuntu
+apt install webp
+echo "0 6 * * * ubuntu /home/ubuntu/convert_to_webp.sh > /home/ubuntu/cron.log 2>&1" | crontab -
+service cron status
+
+crontab -r
